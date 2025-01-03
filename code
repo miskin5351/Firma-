@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breuer Hausmeister Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: #007bff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .service {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 30%;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .service img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Breuer Hausmeister Service</h1>
+    <p>Professioneller Service für Ihr Zuhause</p>
+</header>
+
+<nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#ueber-uns">Über uns</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero">
+    <h1>Willkommen bei Breuer Hausmeister Service</h1>
+    <p>Ihr Experte für Fliesenarbeiten, Abbruch, Bodenverlegung und mehr!</p>
+</section>
+
+<div class="container">
+    <section id="leistungen">
+        <h2>Unsere Leistungen</h2>
+        <div class="services">
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Fliesenarbeiten">
+                <h3>Fliesenarbeiten</h3>
+                <p>Präzise und ästhetische Fliesenverlegung für jeden Raum.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Abbruch">
+                <h3>Abbruch</h3>
+                <p>Effizienter und sicherer Rückbau von Gebäuden und Strukturen.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Bodenverlegung">
+                <h3>Bodenverlegung</h3>
+                <p>Professionelle Verlegung von Laminat, Parkett und Fliesen.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Malerarbeiten">
+                <h3>Malerarbeiten</h3>
+                <p>Fachgerechte Innen- und Außenmalerarbeiten.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Trockenbau">
+                <h3>Trockenbau</h3>
+                <p>Individuelle Lösungen für Innenräume mit Trockenbau.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ueber-uns">
+        <h2>Über uns</h2>
+        <p>Breuer Hausmeister Service ist Ihr verlässlicher Partner mit jahrelanger Erfahrung im Handwerk. Unser Ziel ist es, Ihre Wünsche zu erfüllen und höchste Qualität zu liefern. Von Fliesenarbeiten bis hin zum Trockenbau – wir bieten alles aus einer Hand!</p>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Rufen Sie uns an oder schreiben Sie uns, um ein unverbindliches Angebot zu erhalten:</p>
+        <p><strong>Telefon:</strong> 01234 567890</p>
+        <p><strong>Email:</strong> kontakt@breuer-hausmeister.de</p>
+        <p><strong>Adresse:</strong> Musterstraße 123, 12345 Musterstadt</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Breuer Hausmeister Service. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
